@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<title>Servey Form</title>
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+	<!-- Bootstrap CSS  -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Main CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Font Link -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700|Slabo+27px|Varela+Round&display=swap" rel="stylesheet"> 
+</head>
+
+<body class="text-light">
+	<!-- Overlay -->
+	<section id="overlay">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-8 py-5">
+					<h2 id="title" class="text-center">freeCodeCamp Survey Form</h2>
+					<p id="description" class="text-center">Thank you for taking the time to help us improve the platform </p>	
+
+					<!-- Form Section Start -->			
+					<div id="survey-form">
+						<form class="form p-4">
+
+							<div class="form-group">
+								<label id="name-label">Name</label>
+								<input class="form-control" type="text" placeholder="Enter your name" id="name" required>
+							</div>
+
+							<div class="form-group">
+								<label id="email-label">Email</label>
+								<input class="form-control" type="email" placeholder="Enter your email" id="email" required>
+							</div>
+
+							<div class="form-group">
+								<label id="number-label">Age(oprional)</label>
+								<input class="form-control" type="number" placeholder="Age" id="number" min="12" max="120" required>
+							</div>
+
+							<!-- Fieldset Radio Button -->
+							<div class="form-group">
+								<label>Which option best describes your current role?</label>
+								<select class="form-control" id="dropdown">
+									<option class="form-text-muted"selected disabled>Select current role</option>
+									<option>Student</option>
+									<option>Full Time Job</option>
+									<option>Full Time Learner</option>
+									<option>Prefer not to say</option>
+									<option>Other</option>
+								</select>
+							</div>
+
+							<fieldset class="form-group">
+								<label>Would you recommend freeCodeCamp to a friend?</label>
+								<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="radio" value="definitely" name="recommend" checked>Definitely
+									</label>
+								</div>
+								<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="radio" value="maybe" name="recommend" >Maybe
+									</label>
+								</div>
+								<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="radio" value="notsure" name="recommend">Not sure
+									</label>
+								</div>
+							</fieldset>
+
+							<div class="form-group">
+								<label>What is your favorite feature of freeCodeCamp? </label>
+								<select class="form-control" id="dropdown">
+									<option class="form-text-muted" selected disabled>Select an option</option>
+									<option>Challenges</option>
+									<option>Projects</option>
+									<option>Community</option>
+									<option>Open Source</option>
+								</select>
+							</div>
+
+							<!-- Fieldset Checkbox -->
+							<fieldset class="form-group">
+								<label>What would you like to see improved? (Check all that apply)</label>
+								<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox" value="front">Front-end Projects
+									</label>
+								</div>
+
+								<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox" value="back">Back-end Projects
+									</label>
+								</div>
+
+								<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox" value="data">Data Visualization
+									</label>
+								</div>
+
+								<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox" value="challenge">Challenges
+									</label>
+								</div>
+
+								<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox" value="opensource">Open Source Commiunity
+									</label>
+								</div>
+
+								<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox" value="gitterhelp">Gitter help rooms
+									</label>
+								</div>
+
+								<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox" value="videos">Videos
+									</label>
+								</div>
+
+								<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox" value="meetup">City Meetups
+									</label>
+								</div>
+
+								<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox" value="wiki">Wiki
+									</label>
+								</div>
+
+								<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox" value="forum">Forum
+									</label>
+								</div>
+
+								<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox" value="addition">Additional Courses
+									</label>
+								</div>
+
+							</fieldset>
+
+							<div class="form-group">
+								<label>Any Comments or Suggestions?</label>
+								<textarea class="form-control"  placeholder="Enter your comment here..." rows="3">
+									
+								</textarea>
+							</div>
+
+							<div>
+								<input id="submit" class="btn btn-success btn-block" type="submit" value="Submit">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<!-- Script Code -->
+	<script type="text/javascript" src="js/jquery-slim.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
