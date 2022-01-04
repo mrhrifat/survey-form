@@ -7,11 +7,12 @@ FCC is stand for Free Code Camp. It's a one page site & developed with HTML, CSS
 
 ## Demo
 - Live
-    - [Survey Form](https://mrhrifat.github.io/fcc-survey-form)
+    - [Survey Form](https://mrhrifat.github.io/survey-form)
 - Image
-    - [Laptop](https://i.ibb.co/F7mVL0W/FCCSurvey-Form01.png)
-    - [Tab](https://i.ibb.co/G2hBV2R/FCCSurvey-Form02.png)
-    - [Mobile](https://i.ibb.co/DwcycRX/FCCSurvey-Form03.png)
+    - [Laptop](https://i.ibb.co/F7mVL0W/Survey-Form01.png)
+    - [Tab](https://i.ibb.co/G2hBV2R/Survey-Form02.png)
+    - [Mobile](https://i.ibb.co/DwcycRX/Survey-Form03.png)
+
 
 ## How To Contribute
 - Fork the repository.
@@ -23,4 +24,4 @@ FCC is stand for Free Code Camp. It's a one page site & developed with HTML, CSS
 **Note:** If you want to do a major changes than first create an Issue.
 
 ## License
-This project is licensed under [GPL-3.0](https://github.com/mrhrifat/fcc-survey-form/blob/master/LICENSE.md).
+This project is licensed under [GPL-3.0](https://github.com/mrhrifat/survey-form/blob/master/LICENSE.md).
